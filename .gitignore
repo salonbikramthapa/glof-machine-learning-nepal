@@ -1,0 +1,44 @@
+# Private credentials, local environments and generated working files
+.env
+.env.*
+!.env.example
+.cdsapirc
+.aws/
+.streamlit/secrets.toml
+.venv*/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.log
+# Data acquired separately; inspect licences before sharing
+*.nc
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.sbn
+*.sbx
+*.prj
+*.cpg
+*.CPG
+*.geojson
+*.joblib
+*.zip
+GLOF_model/data/processed/*
+!GLOF_model/data/processed/.gitkeep
+GLOF_model/results/outer_predictions.csv
+GLOF_model/results/fold_assignments.csv
+GLOF_model/results/core_error_map_*.csv
+GLOF_model/results/recent_lake_paired_change.csv
+GLOF_model/reports/boundary_*records.csv
+GLOF_model/reports/boundary_review.csv
+
+# Local presentation and editorial materials
+demonstration/
+**/VIDEO_SCRIPT.md
+**/*VIDEO_SCRIPT*
+archives/
+work/
+GLOF_model/reports/*
+!GLOF_model/reports/.gitkeep

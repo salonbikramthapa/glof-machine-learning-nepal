@@ -1,0 +1,94 @@
+{
+  "seed": 17624860,
+  "input_sha256": "2f54d1f7a79f0e8a53915a09d2a8e426bfb24992285fc75754ab412d47c8cf0d",
+  "n": 2066,
+  "positives": 21,
+  "arms": {
+    "E1_lake": [
+      "Area",
+      "Elevation",
+      "Type"
+    ],
+    "E2_no_type": [
+      "Area",
+      "Elevation"
+    ],
+    "E3_climate": [
+      "Area",
+      "Elevation",
+      "Type",
+      "temp_mean_C_2005_2014",
+      "precip_mean_mm_year_2005_2014"
+    ],
+    "E4_geography": [
+      "Area",
+      "Elevation",
+      "Type",
+      "Latitude",
+      "Longitude",
+      "Basin"
+    ]
+  },
+  "models": [
+    "Majority",
+    "LogisticRegression",
+    "KNN",
+    "DecisionTree",
+    "RandomForest"
+  ],
+  "grids": {
+    "Majority": {},
+    "LogisticRegression": {
+      "model__C": [
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "KNN": {
+      "model__n_neighbors": [
+        3,
+        7,
+        15
+      ],
+      "model__weights": [
+        "uniform",
+        "distance"
+      ]
+    },
+    "DecisionTree": {
+      "model__max_depth": [
+        2,
+        4,
+        null
+      ],
+      "model__min_samples_leaf": [
+        1,
+        5
+      ]
+    },
+    "RandomForest": {
+      "model__max_depth": [
+        4,
+        null
+      ],
+      "model__min_samples_leaf": [
+        1,
+        5
+      ]
+    }
+  },
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "threshold": 0.5,
+  "scorer": "positive-class F1, zero_division=0",
+  "class_weight": "balanced for LR/DT/RF; KNN vote weights only; no synthetic resampling",
+  "permutation": "10 shuffles of each original column in outer test partition; F1 decrease; descriptive variability only",
+  "geography_change": "E4 adds coordinates and basin; E1 is the removal comparison required by proposal",
+  "type_change": "E2 and fixed M(e) rule are blueprint refinements, not original proposal models",
+  "group_sensitivity": "3 outer/inner climate-cell grouped folds when feasible; no adjacent-cell buffer and no claim of basin transfer",
+  "group_feasible": true,
+  "interpretation": "retrospective historical designation classification; scores are not flood probabilities",
+  "boundary_rule": "source Nepal AND full polygon covered by research ADM0; excluded disagreements logged before modelling",
+  "software": "../requirements-lock.txt"
+}

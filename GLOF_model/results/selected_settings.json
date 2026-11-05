@@ -1,0 +1,1458 @@
+[
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 0,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 1,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 2,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 3,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 4,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 0,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.14457209457209455,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 1,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.15072274691095416,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 2,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.13591257552610211,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 3,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.15506811421972458,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 4,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.17712519008630676,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 0,
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.30158730158730157,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 1,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.33699633699633696,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 2,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.24338624338624337,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 3,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.44848484848484843,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 4,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.39153439153439146,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.21585386291268646,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": 4,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.19747899159663862,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.26666666666666666,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.32037037037037036,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.37407407407407406,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.23737373737373738,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.2545454545454546,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.32996632996632996,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.4545454545454546,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.33174603174603173,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "Majority",
+    "fold": 0,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "Majority",
+    "fold": 1,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "Majority",
+    "fold": 2,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "Majority",
+    "fold": 3,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "Majority",
+    "fold": 4,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "LogisticRegression",
+    "fold": 0,
+    "parameters": {
+      "model__C": 0.1
+    },
+    "inner_f1": 0.16463823591958252,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "LogisticRegression",
+    "fold": 1,
+    "parameters": {
+      "model__C": 0.1
+    },
+    "inner_f1": 0.1487894109425741,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "LogisticRegression",
+    "fold": 2,
+    "parameters": {
+      "model__C": 0.1
+    },
+    "inner_f1": 0.17614106323783743,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "LogisticRegression",
+    "fold": 3,
+    "parameters": {
+      "model__C": 0.1
+    },
+    "inner_f1": 0.20443974630021142,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "LogisticRegression",
+    "fold": 4,
+    "parameters": {
+      "model__C": 1.0
+    },
+    "inner_f1": 0.18998877665544334,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "KNN",
+    "fold": 0,
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.28968253968253965,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "KNN",
+    "fold": 1,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.35978835978835977,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "KNN",
+    "fold": 2,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.24579124579124578,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "KNN",
+    "fold": 3,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.4222222222222222,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "KNN",
+    "fold": 4,
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.3611111111111111,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "DecisionTree",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.08519269776876266,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "DecisionTree",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.23589743589743592,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "DecisionTree",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.19528619528619529,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "DecisionTree",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.21730880290405083,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "DecisionTree",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.37606837606837606,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "RandomForest",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.11188811188811189,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "RandomForest",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.26936026936026936,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "RandomForest",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.18919516938592507,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "RandomForest",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.3717171717171717,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E2_no_type",
+    "model": "RandomForest",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.34208754208754205,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 0,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 1,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 2,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 3,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 4,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 0,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.15854091263927328,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 1,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.20160863303257506,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 2,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.17021341649850177,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 3,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.2392840857273142,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 4,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.18326962892180285,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 0,
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.30158730158730157,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 1,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.32857142857142857,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 2,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.2962962962962963,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 3,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.5312169312169313,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 4,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.3693121693121693,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": 4,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.20686668627643232,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.327032967032967,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": 4,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.22684402479611257,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.32996632996632996,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.4333333333333333,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.27526633024950936,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.37542087542087543,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.3459503459503459,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.3966329966329966,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.3511303511303511,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "Majority",
+    "fold": 0,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "Majority",
+    "fold": 1,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "Majority",
+    "fold": 2,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "Majority",
+    "fold": 3,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "Majority",
+    "fold": 4,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "LogisticRegression",
+    "fold": 0,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.2008812032067846,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "LogisticRegression",
+    "fold": 1,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.22705724592517043,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "LogisticRegression",
+    "fold": 2,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.23416289592760178,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "LogisticRegression",
+    "fold": 3,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.2694908001711596,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "LogisticRegression",
+    "fold": 4,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.24629718107978973,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "KNN",
+    "fold": 0,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.2786195286195286,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "KNN",
+    "fold": 1,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.3452380952380952,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "KNN",
+    "fold": 2,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.35555555555555557,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "KNN",
+    "fold": 3,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.4222222222222222,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "KNN",
+    "fold": 4,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.4649572649572649,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "DecisionTree",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.30666666666666664,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "DecisionTree",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.39826839826839827,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "DecisionTree",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.337037037037037,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "DecisionTree",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.32227627893262567,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "DecisionTree",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.30277777777777776,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "RandomForest",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.29925775978407554,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "RandomForest",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.4185185185185185,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "RandomForest",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.4212121212121212,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "RandomForest",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.41414141414141414,
+    "inner_tuning": true
+  },
+  {
+    "validation": "stratified",
+    "arm": "E4_geography",
+    "model": "RandomForest",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.3333333333333333,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 0,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 1,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "Majority",
+    "fold": 2,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 0,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.13773290147388395,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 1,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.17185185185185184,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "LogisticRegression",
+    "fold": 2,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.1519868951225009,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 0,
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.3544973544973545,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 1,
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.2222222222222222,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "KNN",
+    "fold": 2,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.2738095238095238,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.25820105820105815,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.29292929292929293,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "DecisionTree",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.2619047619047619,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.2518518518518518,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.24575163398692812,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E1_lake",
+    "model": "RandomForest",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.3,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 0,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 1,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "Majority",
+    "fold": 2,
+    "parameters": {},
+    "inner_f1": null,
+    "inner_tuning": false
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 0,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.18437518765387617,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 1,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.14104128245141154,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "LogisticRegression",
+    "fold": 2,
+    "parameters": {
+      "model__C": 10.0
+    },
+    "inner_f1": 0.33605283605283603,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 0,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "uniform"
+    },
+    "inner_f1": 0.4675324675324675,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 1,
+    "parameters": {
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.17777777777777778,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "KNN",
+    "fold": 2,
+    "parameters": {
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "inner_f1": 0.24444444444444446,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.11538461538461538,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": 2,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.1933106575963719,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "DecisionTree",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": 4,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.3826086956521739,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 0,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.20460358056265984,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 5
+    },
+    "inner_f1": 0.1752873563218391,
+    "inner_tuning": true
+  },
+  {
+    "validation": "cell_grouped",
+    "arm": "E3_climate",
+    "model": "RandomForest",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": 4,
+      "model__min_samples_leaf": 1
+    },
+    "inner_f1": 0.38730158730158726,
+    "inner_tuning": true
+  }
+]

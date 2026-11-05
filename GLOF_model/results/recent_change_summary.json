@@ -1,0 +1,14 @@
+{
+  "separate_extension": true,
+  "source": "outputs/GLOF_MSc_datasets/03_GLO_2017_2024/S2_20172024_NTB_GLOID_v1.02.gpkg",
+  "quality_rule": "Nepal source country, permitted basin, valid full polygon inside same research boundary, TS_OUTLIER explicitly FALSE; unknown flags excluded",
+  "all_source_rows": 22294,
+  "eligible_rows": 10001,
+  "matched_endpoint_lakes": 1250,
+  "complete_eight_year_lakes": 855,
+  "sum_area_2017_km2": 68.45336218923708,
+  "sum_area_2024_km2": 72.41323923414737,
+  "sum_change_km2": 3.959877044910278,
+  "median_percent_change": 1.3515482787577682,
+  "limitations": "Matched surviving mapped lakes only; selection and sensor/composite effects. Provider area uncertainties not propagated; descriptive point estimates, not significance. No inference about official PDGL growth, lake formation frequency or climate causation."
+}

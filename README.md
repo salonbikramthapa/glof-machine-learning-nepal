@@ -2,7 +2,7 @@
 
 Machine Learning Approaches for Glacial Lake Outburst Flood Hazard Assessment in the Nepal Himalaya — Salon Bikram Thapa, Coventry University.
 
-This is the **source-sharing preparation**, not the complete local handover. It contains cleared-output notebooks, source, environment specifications, aggregate experimental results and source metadata. Raw geospatial/climate data, lake-level derived tables/predictions and fitted models are intentionally absent. The complete private handover supports immediate saved-result inspection. No public repository or video is claimed.
+This repository contains the source package for the study. It contains cleared-output notebooks, source, environment specifications, aggregate experimental results and source metadata. Raw geospatial/climate data, lake-level derived tables/predictions and fitted models are intentionally absent. The complete private handover supports immediate saved-result inspection.
 
 ## Scientific scope
 
@@ -12,7 +12,7 @@ The supervised target is historical ICIMOD PDGL membership (21 listed, 2,045 unl
 
 Use Python 3.11. From `GLOF_model`, create a virtual environment, install `requirements-lock.txt`, register `python -m ipykernel install --user --name glof --display-name "Python (GLOF)"`, then launch `python -m notebook`. The lock captures the tested macOS environment; a clean cross-platform install remains untested. Do not substitute GUI dependencies into the training environment.
 
-For the app use a separate virtual environment with `requirements-gui.txt`, then `python -m streamlit run app.py --server.address=127.0.0.1`. The app needs lake-level inputs and predictions that this sharing preparation excludes. It will not be fully runnable until those are restored from a permitted local handover or regenerated. Aggregate comparison CSVs can be read immediately without fitting models.
+For the app use a separate virtual environment with `requirements-gui.txt`, then `python -m streamlit run app.py --server.address=127.0.0.1`. The app needs lake-level inputs and predictions that this repository excludes. It will not be fully runnable until those are restored from a permitted local handover or regenerated. Aggregate comparison CSVs can be read immediately without fitting models.
 
 ## Acquire inputs and preserve layout
 
@@ -28,7 +28,7 @@ No raw data are bundled here despite some sources permitting redistribution. Att
 
 ## Rebuild or review
 
-For the supplied complete private handover, run notebooks 00–06 with `RUN_TRAINING=False` to inspect saved work. In this source-only preparation, first acquire inputs and create the missing outputs:
+For the supplied complete private handover, run notebooks 00–06 with `RUN_TRAINING=False` to inspect saved work. In this source-only repository, first acquire inputs and create the missing outputs:
 
 - Run 00–03 in order to check environment, inspect inventories, apply the boundary and derive dated climate.
 - Run 06 before reporting if no recent-extension results exist.
@@ -39,12 +39,6 @@ For the supplied complete private handover, run notebooks 00–06 with `RUN_TRAI
 
 Do not tune to held-out scores or present a cross-validation estimator as a deployment model. The complete local handover includes the additional data and saved estimators needed to inspect results without rebuilding.
 
-## Before public release
-
-This is prepared locally, not published. Review all files, personal details, institutional disclosure obligations and source licences. Choose an appropriate licence for your own code; no licence grant has been invented. Keep credentials, local environments and raw/large files excluded. Notebooks have no execution outputs to avoid leaking local paths/data. Add genuine GitHub/YouTube links only after authorised publication. Do not upload the entire multi-gigabyte private handover by mistake.
-
-Video scripts, internal document checks, supervisor checklists and paper-reading notes are kept outside this repository. Source attribution and data-access notes are retained.
-
 ## Files retained
 
 - `GLOF_model/notebooks/`: seven stages of the study, with saved outputs cleared for sharing.
@@ -54,4 +48,7 @@ Video scripts, internal document checks, supervisor checklists and paper-reading
 - `DATA_DICTIONARY.md`, boundary metadata and `outputs/`: data definitions, attribution and acquisition instructions.
 - `reports/`: empty directory for checks generated when running the project.
 
-Only this repository folder is intended for GitHub. Do not copy the video script, archive folders, credentials or complete local handover into it.
+
+## Licence and data access
+
+Dataset licences and attribution are retained with source metadata. No code licence has been granted in this repository. Raw inputs and saved estimators must be acquired separately before full execution.

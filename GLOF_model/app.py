@@ -122,7 +122,7 @@ elif page=='Downloads':
     choices={'All model comparisons':'results/supervisor_revision/all_model_comparisons.csv','Feature quality':'results/supervisor_revision/feature_quality.csv','Basin error summaries':'results/supervisor_revision/errors_by_basin.csv','Frozen experiment protocol':'results/protocol.json'}
     for label,rel in choices.items():
         f=ROOT/rel;st.download_button(label,f.read_bytes(),f.name,key=rel)
-    paper=ROOT.parent/'paper/Salon_Thapa_GLOF_ML_Research_Paper.pdf'
+    paper=ROOT.parent/'paper/Salon_Bikram_Thapa_17624860.pdf'
     if paper.exists():st.download_button('Research paper PDF',paper.read_bytes(),paper.name,'application/pdf')
     st.subheader('Run and understand the project')
     st.write('Open README.md in the handover for environment setup and notebook order 00–06. Notebook 04 has RUN_TRAINING=False for review. Deliberate reproduction requires a backup, the recorded environment and explicit training activation.')

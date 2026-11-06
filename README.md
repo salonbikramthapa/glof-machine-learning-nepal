@@ -52,3 +52,10 @@ Do not tune to held-out scores or present a cross-validation estimator as a depl
 ## Licence and data access
 
 Dataset licences and attribution are retained with source metadata. No code licence has been granted in this repository. Raw inputs and saved estimators must be acquired separately before full execution.
+
+## Project links
+
+- Source code and aggregate results: https://github.com/salonbikramthapa/glof-machine-learning-nepal
+- Project demonstration: https://youtu.be/dUARnmDIJw0
+
+The demonstration script remains outside this repository.

@@ -2,7 +2,7 @@
 
 Machine Learning Approaches for Glacial Lake Outburst Flood Hazard Assessment in the Nepal Himalaya — Salon Bikram Thapa, Coventry University.
 
-This repository contains the source package for the study. It contains cleared-output notebooks, source, environment specifications, aggregate experimental results and source metadata. Raw geospatial/climate data, lake-level derived tables/predictions and fitted models are intentionally absent. The complete private handover supports immediate saved-result inspection.
+This repository contains seven notebooks, analysis and application code, environment requirements, aggregate results and dataset metadata. Raw geospatial and climate data, lake-level tables and predictions, and fitted models are not included.
 
 ## Scientific scope
 
@@ -28,7 +28,7 @@ No raw data are bundled here despite some sources permitting redistribution. Att
 
 ## Rebuild or review
 
-For the supplied complete private handover, run notebooks 00–06 with `RUN_TRAINING=False` to inspect saved work. In this source-only repository, first acquire inputs and create the missing outputs:
+Aggregate results can be inspected immediately. To reproduce the analysis, acquire the inputs above and generate the missing outputs:
 
 - Run 00–03 in order to check environment, inspect inventories, apply the boundary and derive dated climate.
 - Run 06 before reporting if no recent-extension results exist.
@@ -37,7 +37,7 @@ For the supplied complete private handover, run notebooks 00–06 with `RUN_TRAI
 - Check the frozen protocol and verification outcomes; investigate differences instead of removing protective checks. Exact reproduction requires the recorded inputs/software.
 - The app then reads the generated files. Its 76 selector/view combinations can be tested using `python src/test_results_app.py` in the separate GUI environment.
 
-Do not tune to held-out scores or present a cross-validation estimator as a deployment model. The complete local handover includes the additional data and saved estimators needed to inspect results without rebuilding.
+The saved estimators are evaluation models. Changes to predictors, tuning grids or thresholds require a separate evaluation; the existing held-out scores should not guide tuning.
 
 ## Files retained
 
@@ -57,5 +57,3 @@ Dataset licences and attribution are retained with source metadata. No code lice
 
 - Source code and aggregate results: https://github.com/salonbikramthapa/glof-machine-learning-nepal
 - Project demonstration: https://youtu.be/dUARnmDIJw0
-
-The demonstration script remains outside this repository.
